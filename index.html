@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="author" content="Kavyasri"/>
+        <title>Temperature Converter</title>  
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1><center>Temperature Conversion<br><br></center></h1>
+        <center>
+        <div class="big">
+            <form class="small"><center>
+                <div>
+                    <label for="Celsius" style="font-size:25px">Celsius</label>
+                    <input type="number" name="celsius" id="celsius" placeholder=&#8451 oninput="CtoF()" oninput="CtoK()">
+                </div>
+                <div>
+                    <label for="Fahrenheit" style="font-size:25px">Fahrenheit</label>
+                    <input type="number" name="fahrenheit" id="fahrenheit" placeholder=&#8457 oninput="FtoC()" oninput="FtoK()">
+                </div>
+                <div>
+                    <label for="Kelvin" style="font-size:25px">Kelvin</label>
+                    <input type="number" name="kelvin" id="kelvin" placeholder="K" oninput="KtoC()" oninput="KtoF()">
+                </div>
+            </center>
+            </form>
+        </div>
+        </center>
+        <script src="index.js"></script>
+        <p><center>Designed by <a href="https://www.linkedin.com/in/kavyasri-paladugula-99733923a">Kavyasri Paladugula</a></center></p>
+    </body>
+</html>
